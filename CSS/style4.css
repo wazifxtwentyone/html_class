@@ -1,0 +1,42 @@
+body
+{
+	background-color: maroon;
+	color: whitesmoke;
+	font-size: 50ox;
+	text-align: center;
+	border: 20px solid dimgrey;
+
+}
+h1
+{
+	color: white;
+	font-family: revert;
+	font-size: 60px;
+	text-align: center;
+	border:20px solid dimgrey;
+}
+h3
+{
+	color: purple;
+	border: 15px solid dimgrey;
+}
+p
+{
+	color: black;
+	font-family: unset;
+	font-size: 60px;
+}
+table, tr, th, td
+{
+	border: 20px solid rosybrown;
+	border-collapse: collapse;
+}
+th
+{
+	background-color: orange;
+}
+tr:hover
+{
+  background-color: grey;
+}
+

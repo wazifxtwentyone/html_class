@@ -1,0 +1,37 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body
+{
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	background: #000;
+}
+.navbar
+{
+	background: darkblue; font-family: calibri; padding-right: 15px; padding-left: 15px;
+}
+.navdiv
+{
+	display: flex; align-items: center; justify-content: space-between;
+}
+.logo a
+{
+	font-size:35px; font-weight: 600; color: white;
+}
+li
+{
+	list-style: none; display: inline-block;
+}
+li a
+{
+	color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+nav li a:hover
+{
+	color: deepskyblue;
+}
