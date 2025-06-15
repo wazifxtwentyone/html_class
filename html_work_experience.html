@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="CSS/style6.css">
+	<title>Work Experience</title>
+	<style>
+		
+	* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+	body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: black;
+	color: #333;
+	padding: 40px 20px;
+	}
+
+	.work-experience {
+	max-width: 1100px;
+	margin: auto;
+	background: #fff;
+	border-radius: 12px;
+	padding: 50px 30px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+	}
+
+	.work-experience .title span {
+	display: block;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	color: #0a3d62;
+	margin-bottom: 40px;
+	}
+
+	.boxes {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 30px;
+	}
+
+	.box {
+	background: #fefefe;
+	border: 1px solid #e1e1e1;
+	border-radius: 10px;
+	overflow: hidden;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	}
+
+	.box:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+	}
+
+	.box img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	display: block;
+	}
+
+	.topic {
+	font-size: 20px;
+	font-weight: 600;
+	color: darkred;
+	padding: 15px 20px 0;
+	}
+
+	.box p {
+	font-size: 15px;
+	padding: 10px 20px 20px;
+	line-height: 1.6;
+	color: black;
+	}
+
+
+
+	</style>
+</head>
+<body>
+    <header>
+	<a href="#" class="logo"><span>Work Experience</span></a>
+<section class="Work Experince" id="Work Exoerience">
+  <div class="content">
+    <div class="title">
+      <span></span>
+    </div>
+
+    <div class="boxes">
+      <div class="box">
+        <img src="images/kitchen_helper.jpg" alt="Kitchen Helper">
+        <div class="topic">Kitchen Helper</div>
+        <p>Gaining experience as a helper in the shop's kitchen, such as cleaning, washing dishes, and so on.</p>
+      </div>
+      <div class="box">
+        <img src="images/bundle.jpg" alt="Small Business">
+        <div class="topic">Small Business</div>
+        <p>Selling second-hand items such as clothes and becoming a reseller for trending products.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </header>
+</body>
+</html>
